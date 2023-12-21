@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:text="@string/title_create_reservation"
+            android:text="@string/create_reservation"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
 
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:hint="@string/guest_lastname">
+            android:hint="@string/guest_last_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -112,7 +112,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="@string/title_create_reservation" />
+            android:text="@string/create_reservation" />
 
     </LinearLayout>
 </ScrollView>
