@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Trybnb</string>
-    <string name="title_reservation">Reservas</string>
-    <string name="title_create_reservation">Criar Reservas</string>
-    <string name="title_profile">Perfil</string>
-    <string name="title_login">Login</string>
-    <string name="title_password">Password</string>
+    <string name="reservation">Reservas</string>
+    <string name="create_reservation">Criar Reservas</string>
+    <string name="profile">Perfil</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
     <string name="guest_name">Nome do hóspede</string>
-    <string name="guest_lastname">Sobrenome do hóspede</string>
+    <string name="guest_last_name">Sobrenome do hóspede</string>
     <string name="calendar_check_in">Checkin</string>
     <string name="calendar_check_out">Checkout</string>
     <string name="add_needs">Necessidades adicionais</string>

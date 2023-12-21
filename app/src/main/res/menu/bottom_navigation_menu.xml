@@ -3,13 +3,13 @@
     <item
         android:id="@+id/reservation_menu_item"
         android:icon="@drawable/ic_reservation"
-        android:title="@string/title_reservation" />
+        android:title="@string/reservation" />
     <item
         android:id="@+id/create_reservation_menu_item"
         android:icon="@drawable/ic_create_reservation"
-        android:title="@string/title_create_reservation" />
+        android:title="@string/create_reservation" />
     <item
         android:id="@+id/profile_menu_tem"
         android:icon="@drawable/ic_profile"
-        android:title="@string/title_profile" />
+        android:title="@string/profile" />
 </menu>
