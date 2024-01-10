@@ -46,15 +46,16 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/password" />
+                android:hint="@string/password"
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
+            android:id="@+id/login_successful"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/login_successful"
             android:text="Login feito com sucesso!"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/login_button_profile"
