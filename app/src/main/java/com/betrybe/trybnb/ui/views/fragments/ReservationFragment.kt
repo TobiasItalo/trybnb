@@ -35,10 +35,10 @@ class ReservationFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         reservationRecyclerView = view.findViewById(R.id.reservation_recycler_view)
-//        reservationRecyclerView.adapter = BookingByIdAdapter(createItemMenuReservations())
+        reservationRecyclerView.adapter = BookingByIdAdapter(createItemMenuReservations())
     }
 
-    private fun createItemMenuReservations() {
+    private fun createItemMenuReservations(): MutableList<BookingById> {
         val bookingsByIds: MutableList<BookingById> = mutableListOf()
         CoroutineScope(Dispatchers.IO).launch {
             try {
@@ -70,6 +70,6 @@ class ReservationFragment : Fragment() {
                 ApiIdlingResource.decrement()
             }
         }
-//        return bookingsByIds
+        return bookingsByIds
     }
 }
