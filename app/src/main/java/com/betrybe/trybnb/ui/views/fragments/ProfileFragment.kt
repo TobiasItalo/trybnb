@@ -50,12 +50,16 @@ class ProfileFragment : Fragment() {
 
             if (loginIn.isNullOrEmpty()) {
                 loginInputProfile.error = "O campo Login é obrigatório"
+                isLoginOk = false
             } else {
+                loginInputProfile.error = ""
                 isLoginOk = true
             }
             if (passIn.isNullOrEmpty()) {
                 passwordInputProfile.error = "O campo Password é obrigatório"
+                isPassOk = false
             } else {
+                passwordInputProfile.error = ""
                 isPassOk = true
             }
 
@@ -72,10 +76,6 @@ class ProfileFragment : Fragment() {
                 if (bookingResponse.isSuccessful) {
                     withContext(Dispatchers.Main) {
                         loginSuccessful.visibility = View.VISIBLE
-//                        view?.findViewById<TextView>(R.id.login_successful)?.apply {
-//                            text = "Login feito com sucesso!"
-//                            visibility = View.VISIBLE
-//                        }
                     }
                 }
             } catch (e: HttpException) {
