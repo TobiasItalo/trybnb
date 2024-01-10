@@ -12,4 +12,5 @@
     <string name="add_needs">Necessidades adicionais</string>
     <string name="total_price">Preço total</string>
     <string name="is_deposit_paid">Depósito Pago</string>
+    <string name="bra_currency">R$</string>
 </resources>
