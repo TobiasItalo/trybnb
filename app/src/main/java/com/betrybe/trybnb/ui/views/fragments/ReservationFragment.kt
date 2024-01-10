@@ -20,7 +20,6 @@ import java.io.IOException
 
 class ReservationFragment : Fragment() {
     private lateinit var reservationRecyclerView: RecyclerView
-    private lateinit var bookerAdapter: BookingByIdAdapter
     private val bookerApiClient = BookerApiClient.instance
 
     override fun onCreateView(

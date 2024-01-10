@@ -21,4 +21,3 @@ data class BookingById(
     @SerializedName("additionalneeds")
     val additionalNeeds: String,
 )
-
